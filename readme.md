@@ -17,7 +17,9 @@ https://flowingdata.com/2012/08/02/how-to-make-an-interactive-network-visualizat
 
 ##Data Sources
 
-*[Microsoft Academic Knowledge API](https://www.microsoft.com/cognitive-services/en-us/academic-knowledge-api)
-*[Open Citation Corpus](http://opencitations.net/)
-*[Scraping Google Scholar?](https://github.com/lecy/google-scholar-scraper-in-python)
+[Microsoft Academic Knowledge API](https://www.microsoft.com/cognitive-services/en-us/academic-knowledge-api)
+
+[Open Citation Corpus](http://opencitations.net/)
+
+[Scraping Google Scholar?](https://github.com/lecy/google-scholar-scraper-in-python)
 
