@@ -4,6 +4,24 @@ Hack created as part of [Open Research Data do-a-thon in London](https://www.eve
 
 #Front End Development
 
+##Ideas
+
+###List View
+
+* For most people the most useful output is just a straight list (maybe ranked) telling them which papers to read next
+
+###Timeline View
+
+* Displaying papers ordered by time, and showing citation relations is potentially useful
+
+###Network View
+
+*
+
+
+
+
+
 ## Javascript D3 Examples
 
 http://mbostock.github.io/d3/talk/20111116/force-collapsible.html
