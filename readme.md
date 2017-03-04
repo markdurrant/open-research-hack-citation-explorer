@@ -12,6 +12,9 @@ http://www.coppelia.io/2014/07/an-a-to-z-of-extra-features-for-the-d3-force-layo
 
 https://flowingdata.com/2012/08/02/how-to-make-an-interactive-network-visualization/
 
+##Zotero Integration
+
+https://www.zotero.org/support/dev/getting_started
 
 #Back End Development
 
