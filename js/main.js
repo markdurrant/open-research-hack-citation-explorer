@@ -11,7 +11,31 @@ var simulation = d3.forceSimulation()
 
 d3.json("data/test.json", function(error, graph) {
 
-  // console.log(graph);
+  // var ourNodes = [];
+
+  // function filterNodes (value) {
+  //   if ( parseInt(value.year) >= 2010) {
+  //     ourNodes.push(value.id);
+
+  //     return value, ourNodes;
+  //   }
+  // }
+
+  // function filterLinks (value) {
+  //   var val;
+
+  //   for (var i = ourNodes.length - 1; i >= 0; i--) {
+  //     if (value.target == ourNodes[i]) {
+  //       val = value;
+  //     }
+  //     return val;
+  //   }
+  //   return val;
+  // }
+
+  // var filteredNodes = graph.nodes.filter(filterNodes);
+  // var filteredLinks = graph.links.filter(filterLinks);
+  // console.log(filteredLinks);
 
   if (error) throw error;
 
@@ -28,6 +52,7 @@ d3.json("data/test.json", function(error, graph) {
     .data(graph.nodes)
     .enter().append("circle")
       .attr("r", 5)
+      .filter(function(d) { if ( parseInt(d.year) >= 2015){return d} });
       // .attr("fill", function(d) { return color(d.group); })
       // .call(d3.drag()
       //     .on("start", dragstarted)
